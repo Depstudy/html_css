@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	width: 1366px;
+	max-width: 1366px;
 	margin: 0 auto;
 }
 
@@ -113,9 +113,6 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-}
-
-a.button {
 	box-shadow: 0px 2px 5px 0px rgba(33,33,33,0.34);
 }
 
@@ -158,7 +155,7 @@ a.button:hover {
 
 .feature-product {
 	position: relative;
-	display: block;
+	padding-top: 120px;
 }
 
 .featured-menu {
@@ -170,6 +167,8 @@ a.button:hover {
 
 .featured-list {
 	display: inline;
+	line-height: 3.3;
+	padding-right: 25px;
 }
 
 .featured-link {
@@ -179,7 +178,7 @@ a.button:hover {
 	line-height: 1.2;
 	font-weight: 700;
 	color: #6c6c6c;
-	border-bottom: 1px solid #6c6c6c;
+	padding-bottom: 10px;
 }
 
 .featured-link:hover {
@@ -196,7 +195,7 @@ a.button:hover {
 	border-bottom: 3px solid #212121;
 }
 
-.featured-explore {
+.explore {
 	display: inline;
 	float: right;
 	margin-top: 138px;
@@ -209,19 +208,17 @@ a.button:hover {
 	color: #212121;
 	text-decoration: none;
 	margin-right: 98px;
-	margin-left: 714px;
 	margin-bottom: 68px;
 }
 
 .tab-content {
-	display: inline-table;
+	display: inline-block;
 	padding-left: 98px;
 	padding-right: 98px;
-	padding-bottom: 120px;
 }
 
 .tab-product {
-	margin-right: 30px;
+	margin-right: 25px;
 }
 
 .tab-product:hover {
@@ -232,23 +229,29 @@ a.button:hover {
 }
 
 .tab-product-4 {
-	margin-right: 0;
+	margin-right: 0px;
 }
 
 .promo-product {
 	position: relative;
-	display: block;
+	display: inline-table;
+	padding-top: 120px;
 }
 
 .promo-content-1 {
-	display: inline-block;
+	display: inline-table;
 	width: 683px;
 	height: 683px;
 	position: relative;
 	background-image: url(img/promo_img/promo_img_1.jpg); 
 }
 
-.promo-content-1-tag {
+.promo-text {
+	margin-top: 228px;
+	margin-left: 51px;
+}
+
+.promo-content-tag {
 	font-family: Montserrat;
 	font-size: 18px;
 	line-height: 48px;
@@ -258,7 +261,43 @@ a.button:hover {
 	color: #1e88e5;
 }
 
-.promo-1-h2 {
+.promo-h2 {
+	font-family: Montserrat;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #212121;
+	margin-bottom: 22px;
+}
+
+.promo-content-details {
+	font-family: Montserrat;
+	font-size: 14.1px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #6c6c6c;
+	width: 420px;
+	margin-bottom: 34px;
+}
+
+.promo-content-2 {
+	display: inline-table;
+	width: 683px;
+	height: 683px;
+	position: relative;
+	background-image: url(img/promo_img/promo_img_2.jpg);
+}
+
+.trending-text {
+	display: inline-block;
+	width: 100%;
+}
+
+.trending-title {
+	display: inline-block;
+	position: relative;
+	margin-top: 125px;
+	margin-left: 98px;
 	font-family: Montserrat;
 	font-size: 36px;
 	line-height: 1.2;
@@ -266,10 +305,27 @@ a.button:hover {
 	color: #212121;
 }
 
-.promo-content-1-details {
-	font-family: Montserrat;
-	font-size: 14.1px;
-	line-height: 24px;
-	font-weight: 300;
-	color: #6c6c6c;
+.trending-products {
+	display: inline-block;
+	padding-left: 68px;
+	padding-right: 68px;
+	height: 100%;
+}
+
+.trending-product {
+	line-height: 4;
+	text-decoration: none;
+}
+
+.trending-product-6,
+.trending-product-9 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.trending-product:hover {
+	width: 270px;
+	height: 270px;
+	opacity: 0.9;
+	background-color: #ffffff;
 }
