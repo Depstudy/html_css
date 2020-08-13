@@ -217,12 +217,59 @@ a.button:hover {
 	display: inline-table;
 	padding-left: 98px;
 	padding-right: 98px;
+	padding-bottom: 120px;
 }
 
 .tab-product {
 	margin-right: 30px;
 }
 
+.tab-product:hover {
+	width: 270px;
+	height: 270px;
+	opacity: 0.9;
+	background-color: #ffffff;
+}
+
 .tab-product-4 {
 	margin-right: 0;
+}
+
+.promo-product {
+	position: relative;
+	display: block;
+}
+
+.promo-content-1 {
+	display: inline-block;
+	width: 683px;
+	height: 683px;
+	position: relative;
+	background-image: url(img/promo_img/promo_img_1.jpg); 
+}
+
+.promo-content-1-tag {
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #1e88e5;
+}
+
+.promo-1-h2 {
+	font-family: Montserrat;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #212121;
+}
+
+.promo-content-1-details {
+	font-family: Montserrat;
+	font-size: 14.1px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #6c6c6c;
 }
