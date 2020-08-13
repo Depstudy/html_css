@@ -242,8 +242,7 @@ a.button:hover {
 	display: inline-table;
 	width: 683px;
 	height: 683px;
-	position: relative;
-	background-image: url(img/promo_img/promo_img_1.jpg); 
+	background-image: url(img/promo_img/promo_img_1.jpg);
 }
 
 .promo-text {
@@ -282,9 +281,8 @@ a.button:hover {
 
 .promo-content-2 {
 	display: inline-table;
-	width: 683px;
+	width: 670px;
 	height: 683px;
-	position: relative;
 	background-image: url(img/promo_img/promo_img_2.jpg);
 }
 
