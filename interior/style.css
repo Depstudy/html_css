@@ -166,7 +166,7 @@ a.button:hover {
 }
 
 .featured-list {
-	display: inline;
+	display: inline-block;
 	line-height: 3.3;
 	padding-right: 25px;
 }
