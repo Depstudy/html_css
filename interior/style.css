@@ -234,7 +234,7 @@ a.button:hover {
 
 .promo-product {
 	position: relative;
-	display: inline-table;
+	display: inline-block;
 	padding-top: 120px;
 }
 
