@@ -212,13 +212,15 @@ a.button:hover {
 }
 
 .tab-content {
+	position: relative;
 	display: inline-block;
 	padding-left: 98px;
 	padding-right: 98px;
+	width: 100%;
 }
 
 .tab-product {
-	margin-right: 25px;
+	margin-right: 23px;
 }
 
 .tab-product:hover {
@@ -226,6 +228,10 @@ a.button:hover {
 	height: 270px;
 	opacity: 0.9;
 	background-color: #ffffff;
+}
+
+.tab-product-1 {
+	margin-left: 0px;
 }
 
 .tab-product-4 {
