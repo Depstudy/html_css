@@ -4,7 +4,6 @@
   position: relative;
   padding-right: 98px;
   padding-left: 98px;
-  margin-top: -19px;
 }
 .header-products-text {
   margin-top: 168px;
@@ -16,6 +15,11 @@
   font-weight: 100;
   color: #212121;
   margin-bottom: 44px;
+}
+.main {
+  position: relative;
+  display: inline-block;
+  bottom: -5px;
 }
 .main-menu {
   padding-top: 71px;
@@ -54,4 +58,11 @@
 }
 .main-product img {
   margin: 20px 15px 0 15px;
+}
+.main-product:hover {
+  opacity: 0.9;
+  background-color: #ffffff;
+}
+.refresh-button {
+  margin: 71px 652px 20px 672px;
 }
