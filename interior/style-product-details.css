@@ -3,7 +3,7 @@
 }
 .header-details {
   position: relative;
-  padding: 63px 105px 0px 91px;
+  padding: 63px 93px 0px 91px;
 }
 .main {
   margin-top: 29px;
@@ -122,4 +122,21 @@ a.details-button:hover {
 }
 .details-pagination {
   margin-left: 160px;
+}
+.products {
+  display: inline-block;
+  position: relative;
+  padding-left: 100px;
+  padding-bottom: 120px;
+}
+.main-product {
+  text-decoration: none;
+}
+.main-product:hover {
+  opacity: 0.9;
+  background-color: #ffffff;
+}
+.main-product-2 {
+  margin-left: 25px;
+  margin-right: 23px;
 }
